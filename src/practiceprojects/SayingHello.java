@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
+ * Create a program that prompts for your name and prints a 
+ * greeting using your name.
  * @author kelseyhyde
  */
 public class SayingHello {
