@@ -15,10 +15,12 @@ public class SimpleMaths {
         
         try {
             System.out.println("What is the first number?");
-            int first = Integer.parseInt(reader.readLine());
+            String firstStr = reader.readLine();
+            int first = Integer.parseInt(firstStr);
             
             System.out.println("What is the second number?");
-            int second = Integer.parseInt(reader.readLine());
+            String secondStr = reader.readLine();
+            int second = Integer.parseInt(secondStr);
             
             System.out.println(first + " + " + second + " = " + (first+second) + "\n" +
                                 first + " - " + second + " = " + (first-second) + "\n" +
