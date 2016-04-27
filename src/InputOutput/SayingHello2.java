@@ -1,4 +1,4 @@
-package practiceprojects;
+package InputOutput;
 
 import java.io.BufferedReader;
 import java.io.IOException;
